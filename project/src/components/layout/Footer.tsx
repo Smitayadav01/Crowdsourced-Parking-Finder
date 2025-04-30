@@ -8,17 +8,17 @@ const Footer: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6">
         <div className="md:flex md:items-center md:justify-between">
           <div className="flex items-center gap-2 mb-4 md:mb-0">
-            <Car className="h-6 w-6 text-blue-400" />
+            <Car className="h-6 w-6 text-purple-400" />
             <span className="text-xl font-bold">ParkSpot</span>
           </div>
           
           <nav className="flex flex-wrap justify-center md:justify-end gap-x-6 gap-y-2 text-sm">
-            <Link to="/" className="hover:text-blue-400 transition-colors">Home</Link>
-            <Link to="/map" className="hover:text-blue-400 transition-colors">Find Parking</Link>
-            <a href="#" className="hover:text-blue-400 transition-colors">About Us</a>
-            <a href="#" className="hover:text-blue-400 transition-colors">How It Works</a>
-            <a href="#" className="hover:text-blue-400 transition-colors">Contact</a>
-            <a href="#" className="hover:text-blue-400 transition-colors">Privacy Policy</a>
+            <Link to="/" className="hover:text-purple-400 transition-colors">Home</Link>
+            <Link to="/map" className="hover:text-purple-400 transition-colors">Find Parking</Link>
+            <a href="#" className="hover:text-purple-400 transition-colors">About Us</a>
+            <a href="#" className="hover:text-purple-400 transition-colors">How It Works</a>
+            <a href="#" className="hover:text-purple-400 transition-colors">Contact</a>
+            <a href="#" className="hover:text-purple-400 transition-colors">Privacy Policy</a>
           </nav>
         </div>
         
@@ -38,4 +38,4 @@ const Footer: React.FC = () => {
   );
 };
 
-export default Footer;
+export default Footer
