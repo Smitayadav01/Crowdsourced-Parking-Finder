@@ -25,7 +25,7 @@ const Header: React.FC = () => {
   const navLinkClasses = ({ isActive }: { isActive: boolean }) => 
     `px-3 py-2 rounded-md flex items-center gap-2 transition-colors
     ${isActive 
-      ? 'bg-blue-50 text-blue-700 font-medium' 
+      ? 'bg-purple-50 text-purple-700 font-medium' 
       : 'text-gray-700 hover:bg-gray-100'
     }`;
 
@@ -34,7 +34,7 @@ const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16 items-center">
           {/* Logo */}
-          <Link to="/" className="flex items-center gap-2 text-blue-600 font-bold text-xl">
+          <Link to="/" className="flex items-center gap-2 text-purple-700 font-bold text-xl">
             <Car className="h-6 w-6" />
             <span>ParkSpot</span>
           </Link>
@@ -128,4 +128,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header;
+export default Header
