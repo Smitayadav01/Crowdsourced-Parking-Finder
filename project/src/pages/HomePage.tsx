@@ -6,9 +6,9 @@ const HomePage: React.FC = () => {
   return (
     <div className="animate-fade-in">
       {/* Hero Section */}
-      <section className="relative bg-blue-600 text-white">
+      <section className="relative bg-purple-700 text-white">
         <div className="absolute inset-0 overflow-hidden">
-          <div className="absolute inset-0 bg-gradient-to-r from-blue-600 to-blue-800 opacity-90"></div>
+          <div className="absolute inset-0 bg-gradient-to-r from-purple-700 to-purple-900 opacity-90"></div>
           <div 
             className="absolute inset-0 bg-cover bg-center" 
             style={{
@@ -24,11 +24,11 @@ const HomePage: React.FC = () => {
             <h1 className="text-4xl md:text-5xl font-bold leading-tight mb-6">
               Find the perfect parking spot in seconds
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-blue-100">
+            <p className="text-xl md:text-2xl mb-8 text-purple-100">
               ParkSpot helps you discover available parking spaces shared by our community of users in real-time.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Link to="/map" className="btn-primary bg-white text-blue-600 hover:bg-blue-50">
+              <Link to="/map" className="btn-primary bg-white text-purple-700 hover:bg-purple-50">
                 <MapPin className="inline-block mr-2 h-5 w-5" />
                 Find Parking
               </Link>
@@ -45,19 +45,19 @@ const HomePage: React.FC = () => {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             <div className="p-4">
-              <p className="text-3xl font-bold text-blue-600 mb-2">10,000+</p>
+              <p className="text-3xl font-bold text-purple-700 mb-2">10,000+</p>
               <p className="text-gray-600">Parking Spots</p>
             </div>
             <div className="p-4">
-              <p className="text-3xl font-bold text-blue-600 mb-2">50,000+</p>
+              <p className="text-3xl font-bold text-purple-700 mb-2">50,000+</p>
               <p className="text-gray-600">Happy Users</p>
             </div>
             <div className="p-4">
-              <p className="text-3xl font-bold text-blue-600 mb-2">500+</p>
+              <p className="text-3xl font-bold text-purple-700 mb-2">500+</p>
               <p className="text-gray-600">Cities Covered</p>
             </div>
             <div className="p-4">
-              <p className="text-3xl font-bold text-blue-600 mb-2">4.8/5</p>
+              <p className="text-3xl font-bold text-purple-700 mb-2">4.8/5</p>
               <p className="text-gray-600">User Rating</p>
             </div>
           </div>
@@ -76,7 +76,7 @@ const HomePage: React.FC = () => {
           
           <div className="grid md:grid-cols-3 gap-8">
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-              <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-blue-100 text-blue-600 mb-4">
+              <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-purple-100 text-purple-700 mb-4">
                 <MapPin className="h-8 w-8" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Locate Spots</h3>
@@ -86,7 +86,7 @@ const HomePage: React.FC = () => {
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-              <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-blue-100 text-blue-600 mb-4">
+              <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-purple-100 text-purple-700 mb-4">
                 <Navigation className="h-8 w-8" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Navigate & Park</h3>
@@ -96,7 +96,7 @@ const HomePage: React.FC = () => {
             </div>
             
             <div className="bg-white p-6 rounded-lg shadow-sm text-center">
-              <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-blue-100 text-blue-600 mb-4">
+              <div className="inline-flex items-center justify-center h-16 w-16 rounded-full bg-purple-100 text-purple-700 mb-4">
                 <ThumbsUp className="h-8 w-8" />
               </div>
               <h3 className="text-xl font-semibold mb-2">Share & Rate</h3>
@@ -121,7 +121,7 @@ const HomePage: React.FC = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <div className="flex items-start space-x-4">
               <div className="flex-shrink-0 mt-1">
-                <div className="flex items-center justify-center h-10 w-10 rounded-md bg-blue-600 text-white">
+                <div className="flex items-center justify-center h-10 w-10 rounded-md bg-purple-700 text-white">
                   <Users className="h-6 w-6" />
                 </div>
               </div>
@@ -135,7 +135,7 @@ const HomePage: React.FC = () => {
             
             <div className="flex items-start space-x-4">
               <div className="flex-shrink-0 mt-1">
-                <div className="flex items-center justify-center h-10 w-10 rounded-md bg-blue-600 text-white">
+                <div className="flex items-center justify-center h-10 w-10 rounded-md bg-purple-700 text-white">
                   <ParkingSquare className="h-6 w-6" />
                 </div>
               </div>
@@ -149,7 +149,7 @@ const HomePage: React.FC = () => {
             
             <div className="flex items-start space-x-4">
               <div className="flex-shrink-0 mt-1">
-                <div className="flex items-center justify-center h-10 w-10 rounded-md bg-blue-600 text-white">
+                <div className="flex items-center justify-center h-10 w-10 rounded-md bg-purple-700 text-white">
                   <Star className="h-6 w-6" />
                 </div>
               </div>
@@ -163,7 +163,7 @@ const HomePage: React.FC = () => {
             
             <div className="flex items-start space-x-4">
               <div className="flex-shrink-0 mt-1">
-                <div className="flex items-center justify-center h-10 w-10 rounded-md bg-blue-600 text-white">
+                <div className="flex items-center justify-center h-10 w-10 rounded-md bg-purple-700 text-white">
                   <MapPin className="h-6 w-6" />
                 </div>
               </div>
@@ -177,7 +177,7 @@ const HomePage: React.FC = () => {
             
             <div className="flex items-start space-x-4">
               <div className="flex-shrink-0 mt-1">
-                <div className="flex items-center justify-center h-10 w-10 rounded-md bg-blue-600 text-white">
+                <div className="flex items-center justify-center h-10 w-10 rounded-md bg-purple-700 text-white">
                   <Navigation className="h-6 w-6" />
                 </div>
               </div>
@@ -191,7 +191,7 @@ const HomePage: React.FC = () => {
             
             <div className="flex items-start space-x-4">
               <div className="flex-shrink-0 mt-1">
-                <div className="flex items-center justify-center h-10 w-10 rounded-md bg-blue-600 text-white">
+                <div className="flex items-center justify-center h-10 w-10 rounded-md bg-purple-700 text-white">
                   <ThumbsUp className="h-6 w-6" />
                 </div>
               </div>
@@ -207,14 +207,14 @@ const HomePage: React.FC = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="bg-blue-600 text-white py-16">
+      <section className="bg-purple-700 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to find parking?</h2>
           <p className="text-xl mb-8 max-w-3xl mx-auto">
             Join thousands of users who save time and reduce stress with ParkSpot
           </p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link to="/map" className="btn-primary bg-white text-blue-600 hover:bg-blue-50">
+            <Link to="/map" className="btn-primary bg-white text-purple-700 hover:bg-purple-50">
               Find Parking Now
             </Link>
             <Link to="/register" className="btn-primary bg-transparent border-2 border-white hover:bg-white/10">
@@ -227,4 +227,4 @@ const HomePage: React.FC = () => {
   );
 };
 
-export default HomePage;
+export default HomePage
